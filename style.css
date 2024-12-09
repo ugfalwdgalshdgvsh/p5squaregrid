@@ -14,3 +14,11 @@ main {
 canvas {
   display: block;
 }
+
+#button {
+  width: 50px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
