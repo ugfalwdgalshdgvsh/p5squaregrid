@@ -61,9 +61,12 @@ function draw() {
 
 }
 
-const button = document.getElementById("button")
+
+const button = document.getElementById("texture-button");
 
 button.addEventListener("click", function() {
   noLoop();
   redraw();
 });
+
+
